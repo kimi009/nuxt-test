@@ -20,3 +20,5 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+- 查找前缀为 NuxtTest-error 的文件 find . -name "NuxtTest-error\*"
