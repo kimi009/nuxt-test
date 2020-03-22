@@ -67,7 +67,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    maxChunkSize: 300000
     // analyze: true,
     // assetFilter: function(assetFilename) {
     //   return assetFilename.endsWith('.js')
