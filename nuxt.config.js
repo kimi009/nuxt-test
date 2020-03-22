@@ -67,11 +67,11 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    },
-    analyze: true,
-    assetFilter: function(assetFilename) {
-      return assetFilename.endsWith('.js')
     }
+    // analyze: true,
+    // assetFilter: function(assetFilename) {
+    //   return assetFilename.endsWith('.js')
+    // }
   },
   cache: false
 }
